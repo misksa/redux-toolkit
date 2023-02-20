@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "title": "updatetitle",
+      "body": "новый пост 1",
+      "id": 1
+    },
+    {
+      "title": "новый пост 2",
+      "body": "новый пост 2",
+      "id": 2
+    },
+    {
+      "title": "новый пост 3",
+      "body": "новый пост 3",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

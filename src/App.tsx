@@ -2,6 +2,8 @@ import React, {useEffect} from 'react';
 import {useAppDispatch, useAppSelector} from "./hooks/redux";
 import {CountSlice} from "./store/reducers/CountSlise";
 import {fetchUsers} from "./store/reducers/ActionCreators";
+import PostItem from "./components/PostItem";
+import PostContainer from "./components/PostContainer";
 
 const App = () => {
 
@@ -27,6 +29,7 @@ const App = () => {
 				{error && <div>{error}</div>}
 				{JSON.stringify(users, null, 2)}
 			</div>
+			<PostContainer/>
 		</div>
 	);
 };
